@@ -7,7 +7,6 @@ import java.util.TreeMap;
 public class TreeMapExample {
     public static void main(String[] args) {
         Map<Integer, String> map1 = new TreeMap<>();
-
         // adding data
         map1.put(103,"Mango");
         map1.put(105,"Guava");
@@ -28,6 +27,7 @@ public class TreeMapExample {
         map1.remove(111);
         map1.remove(110);
         System.out.println("map1 after remove is : "+map1);
+// some lines added
 
         // traversing
         System.out.println("traverse using foreach");
